@@ -1,0 +1,66 @@
+{
+  "verified": 6,
+  "total": 6,
+  "files": [
+    {
+      "file": "000_0021.png",
+      "sector": 10000,
+      "published_size": 12966639,
+      "found": true,
+      "size_match": true,
+      "original_found": true,
+      "hash_match": true,
+      "pass": true
+    },
+    {
+      "file": "02010025.pcx",
+      "sector": 45326,
+      "published_size": 806664,
+      "found": true,
+      "size_match": true,
+      "original_found": true,
+      "hash_match": true,
+      "pass": true
+    },
+    {
+      "file": "09260002.jpg",
+      "sector": 56902,
+      "published_size": 60716,
+      "found": true,
+      "size_match": true,
+      "original_found": true,
+      "hash_match": true,
+      "pass": true
+    },
+    {
+      "file": "100_0304crop.bmp",
+      "sector": 67021,
+      "published_size": 5111906,
+      "found": true,
+      "size_match": true,
+      "original_found": true,
+      "hash_match": true,
+      "pass": true
+    },
+    {
+      "file": "100_0018.tif",
+      "sector": 87006,
+      "published_size": 14969328,
+      "found": true,
+      "size_match": true,
+      "original_found": true,
+      "hash_match": true,
+      "pass": true
+    },
+    {
+      "file": "100_0183.gif",
+      "sector": 126243,
+      "published_size": 132948,
+      "found": true,
+      "size_match": true,
+      "original_found": true,
+      "hash_match": true,
+      "pass": true
+    }
+  ]
+}

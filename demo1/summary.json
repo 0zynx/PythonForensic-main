@@ -1,0 +1,21 @@
+{
+  "image_path": "C:\\Users\\Aathika\\Downloads\\PythonForensic-main\\test_images\\usb_test.dd",
+  "image_sha256": "f910d92b8b3d419ffffa77db023ac3b1362f1fc7838681a4594eebda78fdf5f2",
+  "partitions_found": [
+    {
+      "partition_index": 0,
+      "start_sector": 0,
+      "length_sectors": 0,
+      "byte_offset": 0
+    }
+  ],
+  "fs_types": [
+    {
+      "partition_index": 0,
+      "type": "FAT32"
+    }
+  ],
+  "total_files": 9,
+  "allocated_files": 6,
+  "deleted_files": 3
+}

@@ -1,0 +1,16 @@
+{
+  "image_path": "C:\\Users\\Aathika\\Downloads\\USB_Forensics_Test\\usb_after_delete.001",
+  "image_sha256": "894424d5b0f5619be8f0543da1cf070fbcf794e6072689116000c61b29c8f12e",
+  "partitions_found": [
+    {
+      "partition_index": 0,
+      "start_sector": 0,
+      "length_sectors": 0,
+      "byte_offset": 0
+    }
+  ],
+  "fs_types": [],
+  "total_files": 0,
+  "allocated_files": 0,
+  "deleted_files": 0
+}

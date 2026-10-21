@@ -1,0 +1,111 @@
+[
+  {
+    "partition_index": 0,
+    "path": "/HELLO.TXT",
+    "name": "HELLO.TXT",
+    "inode": 3,
+    "type": "file",
+    "size": 17,
+    "created_utc": null,
+    "modified_utc": null,
+    "accessed_utc": null,
+    "changed_utc": null,
+    "status": "allocated",
+    "data_runs": [
+      {
+        "start_offset": 16896,
+        "length": 512
+      }
+    ]
+  },
+  {
+    "partition_index": 0,
+    "path": "/_ELETED.TXT",
+    "name": "_ELETED.TXT",
+    "inode": 4,
+    "type": "file",
+    "size": 16,
+    "created_utc": null,
+    "modified_utc": null,
+    "accessed_utc": null,
+    "changed_utc": null,
+    "status": "deleted",
+    "data_runs": [
+      {
+        "start_offset": 17408,
+        "length": 512
+      }
+    ]
+  },
+  {
+    "partition_index": 0,
+    "path": "/$MBR",
+    "name": "$MBR",
+    "inode": 45779,
+    "type": "file",
+    "size": 512,
+    "created_utc": null,
+    "modified_utc": null,
+    "accessed_utc": null,
+    "changed_utc": null,
+    "status": "allocated",
+    "data_runs": [
+      {
+        "start_offset": 0,
+        "length": 512
+      }
+    ]
+  },
+  {
+    "partition_index": 0,
+    "path": "/$FAT1",
+    "name": "$FAT1",
+    "inode": 45780,
+    "type": "file",
+    "size": 4608,
+    "created_utc": null,
+    "modified_utc": null,
+    "accessed_utc": null,
+    "changed_utc": null,
+    "status": "allocated",
+    "data_runs": [
+      {
+        "start_offset": 512,
+        "length": 4608
+      }
+    ]
+  },
+  {
+    "partition_index": 0,
+    "path": "/$FAT2",
+    "name": "$FAT2",
+    "inode": 45781,
+    "type": "file",
+    "size": 4608,
+    "created_utc": null,
+    "modified_utc": null,
+    "accessed_utc": null,
+    "changed_utc": null,
+    "status": "allocated",
+    "data_runs": [
+      {
+        "start_offset": 5120,
+        "length": 4608
+      }
+    ]
+  },
+  {
+    "partition_index": 0,
+    "path": "/$OrphanFiles",
+    "name": "$OrphanFiles",
+    "inode": 45782,
+    "type": "dir",
+    "size": 0,
+    "created_utc": null,
+    "modified_utc": null,
+    "accessed_utc": null,
+    "changed_utc": null,
+    "status": "deleted",
+    "data_runs": []
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "image_path": "/Users/loshikaravichandran/Documents/PythonForensic/tests/data/fat12.img",
+  "image_sha256": "efc7c4d9d5227a847d701f51cad32f647580807b25c29a26f1dce47adee47755",
+  "partitions_found": [
+    {
+      "partition_index": 0,
+      "start_sector": 0,
+      "length_sectors": 0,
+      "byte_offset": 0
+    }
+  ],
+  "fs_types": [
+    {
+      "partition_index": 0,
+      "type": "FAT12"
+    }
+  ],
+  "total_files": 5,
+  "allocated_files": 4,
+  "deleted_files": 1
+}

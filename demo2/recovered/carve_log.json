@@ -1,0 +1,24 @@
+[
+  {
+    "method": "carving",
+    "file": "jpg_0001050624.jpg",
+    "type": "jpg",
+    "offset": 1050624,
+    "sector": 2052,
+    "size": 37343,
+    "valid": true,
+    "sha256": "4dc7c0072a61565e3e66b2834e36ce3e8161f81b06ec301673ffdc39ab1da64b",
+    "md5": "72a7ce1fb66deddf70ef32689b0ed23b"
+  },
+  {
+    "method": "carving",
+    "file": "png_0001149440.png",
+    "type": "png",
+    "offset": 1149440,
+    "sector": 2245,
+    "size": 32558,
+    "valid": true,
+    "sha256": "d29af3a5f838248a2d66c1819f84354fe04d47314adfdf030fbcf52e17a85f05",
+    "md5": "5580e259a790823d49ca0886bbdf8dd6"
+  }
+]

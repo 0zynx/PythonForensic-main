@@ -1,0 +1,7 @@
+partition_index,path,name,inode,type,size,created_utc,modified_utc,accessed_utc,changed_utc,status,data_runs
+0,/HELLO.TXT,HELLO.TXT,3,file,17,,,,,allocated,"[{""start_offset"":16896,""length"":512}]"
+0,/_ELETED.TXT,_ELETED.TXT,4,file,16,,,,,deleted,"[{""start_offset"":17408,""length"":512}]"
+0,/$MBR,$MBR,45779,file,512,,,,,allocated,"[{""start_offset"":0,""length"":512}]"
+0,/$FAT1,$FAT1,45780,file,4608,,,,,allocated,"[{""start_offset"":512,""length"":4608}]"
+0,/$FAT2,$FAT2,45781,file,4608,,,,,allocated,"[{""start_offset"":5120,""length"":4608}]"
+0,/$OrphanFiles,$OrphanFiles,45782,dir,0,,,,,deleted,[]

@@ -1,0 +1,16 @@
+{
+  "image_path": "C:\\Users\\Aathika\\Downloads\\PythonForensic-main\\PythonForensic-main\\L0_Graphic.dd",
+  "image_sha256": "4d63d314f34a7349732bb0d36a434534dab551c0aebb2285cbe0216e0640a5f5",
+  "partitions_found": [
+    {
+      "partition_index": 0,
+      "start_sector": 0,
+      "length_sectors": 0,
+      "byte_offset": 0
+    }
+  ],
+  "fs_types": [],
+  "total_files": 0,
+  "allocated_files": 0,
+  "deleted_files": 0
+}

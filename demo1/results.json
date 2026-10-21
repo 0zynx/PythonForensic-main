@@ -1,0 +1,135 @@
+{
+  "summary": {
+    "image_path": "C:\\Users\\Aathika\\Downloads\\PythonForensic-main\\test_images\\usb_test.dd",
+    "image_sha256": "f910d92b8b3d419ffffa77db023ac3b1362f1fc7838681a4594eebda78fdf5f2",
+    "partitions_found": [
+      {
+        "partition_index": 0,
+        "start_sector": 0,
+        "length_sectors": 0,
+        "byte_offset": 0
+      }
+    ],
+    "fs_types": [
+      {
+        "partition_index": 0,
+        "type": "FAT32"
+      }
+    ],
+    "total_files": 9,
+    "allocated_files": 6,
+    "deleted_files": 3
+  },
+  "recovered_from_records": [
+    {
+      "method": "file-system record",
+      "file": "21__ecret.png",
+      "type": "png",
+      "original_path": "/docs/_ecret.png",
+      "inode": 21,
+      "offset": 1149440,
+      "size": 32558,
+      "created_utc": "2026-10-13T22:43:38Z",
+      "modified_utc": "2026-10-13T22:43:38Z",
+      "accessed_utc": "2026-10-13T18:30:00Z",
+      "valid": true,
+      "storage_reused": false,
+      "sha256": "d29af3a5f838248a2d66c1819f84354fe04d47314adfdf030fbcf52e17a85f05",
+      "md5": "5580e259a790823d49ca0886bbdf8dd6",
+      "matches_original": "secret.png"
+    },
+    {
+      "method": "file-system record",
+      "file": "5__hoto1.jpg",
+      "type": "jpg",
+      "original_path": "/_hoto1.jpg",
+      "inode": 5,
+      "offset": 1050624,
+      "size": 37343,
+      "created_utc": "2026-10-13T22:43:38Z",
+      "modified_utc": "2026-10-13T22:43:38Z",
+      "accessed_utc": "2026-10-13T18:30:00Z",
+      "valid": true,
+      "storage_reused": false,
+      "sha256": "4dc7c0072a61565e3e66b2834e36ce3e8161f81b06ec301673ffdc39ab1da64b",
+      "md5": "72a7ce1fb66deddf70ef32689b0ed23b",
+      "matches_original": "photo1.jpg"
+    },
+    {
+      "method": "file-system record",
+      "file": "7__eport.pdf",
+      "type": "pdf",
+      "original_path": "/_eport.pdf",
+      "inode": 7,
+      "offset": 1118208,
+      "size": 30016,
+      "created_utc": "2026-10-13T22:43:38Z",
+      "modified_utc": "2026-10-13T22:43:38Z",
+      "accessed_utc": "2026-10-13T18:30:00Z",
+      "valid": null,
+      "storage_reused": false,
+      "sha256": "f8c78df96e208b639e0a16e1ed3bdc58f7845d42e18cda8254ca81f5bc81da5f",
+      "md5": "63b9fc7889d484751f6ec1f8235d689a",
+      "matches_original": "report.pdf"
+    }
+  ],
+  "carved": [
+    {
+      "method": "carving",
+      "file": "jpg_0001050624.jpg",
+      "type": "jpg",
+      "offset": 1050624,
+      "sector": 2052,
+      "size": 37343,
+      "valid": true,
+      "sha256": "4dc7c0072a61565e3e66b2834e36ce3e8161f81b06ec301673ffdc39ab1da64b",
+      "md5": "72a7ce1fb66deddf70ef32689b0ed23b",
+      "matches_original": "photo1.jpg"
+    },
+    {
+      "method": "carving",
+      "file": "png_0001149440.png",
+      "type": "png",
+      "offset": 1149440,
+      "sector": 2245,
+      "size": 32558,
+      "valid": true,
+      "sha256": "d29af3a5f838248a2d66c1819f84354fe04d47314adfdf030fbcf52e17a85f05",
+      "md5": "5580e259a790823d49ca0886bbdf8dd6",
+      "matches_original": "secret.png"
+    }
+  ],
+  "verification": {
+    "per_original": [
+      {
+        "original": "photo1.jpg",
+        "sha256": "4dc7c0072a61565e3e66b2834e36ce3e8161f81b06ec301673ffdc39ab1da64b",
+        "recovered": true,
+        "methods": [
+          "carving",
+          "file-system record"
+        ]
+      },
+      {
+        "original": "report.pdf",
+        "sha256": "f8c78df96e208b639e0a16e1ed3bdc58f7845d42e18cda8254ca81f5bc81da5f",
+        "recovered": true,
+        "methods": [
+          "file-system record"
+        ]
+      },
+      {
+        "original": "secret.png",
+        "sha256": "d29af3a5f838248a2d66c1819f84354fe04d47314adfdf030fbcf52e17a85f05",
+        "recovered": true,
+        "methods": [
+          "carving",
+          "file-system record"
+        ]
+      }
+    ],
+    "recovered": 3,
+    "total": 3
+  },
+  "image_unchanged": true
+}

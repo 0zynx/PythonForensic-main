@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Forensic Report</title><style>
+body{font-family:Segoe UI,Calibri,Arial,sans-serif;margin:2rem auto;max-width:1100px;color:#24262a;background:#f7f5f1;padding:0 1rem}
+h1{font-family:Cambria,Georgia,serif;margin-bottom:.2rem}h2{margin-top:2rem;border-bottom:2px solid #e8a33d;padding-bottom:.3rem}
+.meta{color:#6b7076;margin-bottom:1.5rem}.cards{display:flex;gap:1rem;flex-wrap:wrap}
+.card{background:#fff;border:1px solid #e2ded5;border-radius:8px;padding:1rem 1.2rem;min-width:150px}
+.card b{display:block;font-size:1.8rem}table{border-collapse:collapse;width:100%;background:#fff;font-size:.9rem}
+th,td{border:1px solid #e2ded5;padding:.45rem .6rem;text-align:left;vertical-align:top}th{background:#1a1d21;color:#fff}
+code{font-size:.78rem;word-break:break-all}.ok{color:#1b7a3d;font-weight:600}.bad{color:#b3261e;font-weight:600}.warn{color:#9a6700;font-weight:600}
+</style></head><body>
+<h1>Digital Forensics Toolkit: Case Report</h1><div class="meta">Generated 2026-10-14 19:15 UTC</div>
+<h2>Evidence</h2><table>
+<tr><th>Image</th><td>C:\Users\Aathika\Downloads\PythonForensic-main\test_images\usb_test.dd</td></tr>
+<tr><th>SHA-256 at acquisition</th><td><code>f910d92b8b3d419ffffa77db023ac3b1362f1fc7838681a4594eebda78fdf5f2</code></td></tr>
+<tr><th>Image unchanged after analysis</th><td><span class="ok">Yes, hash re-checked and identical</span></td></tr>
+<tr><th>File systems found</th><td>FAT32</td></tr></table>
+<h2>Summary</h2><div class="cards">
+<div class="card"><b>6</b>existing files</div>
+<div class="card"><b>3</b>deleted files listed</div>
+<div class="card"><b>3</b>recovered from file-system records</div>
+<div class="card"><b>2</b>carved from unallocated space</div></div>
+<h2>Recovered from file-system records (original names and timestamps)</h2><table><tr><th>File</th><th>Type</th><th>Size (bytes)</th><th>Offset</th><th>Opens correctly</th><th>SHA-256</th><th>Verification</th><th>Modified (UTC)</th></tr><tr><td>/docs/_ecret.png</td><td>png</td><td>32,558</td><td>1,149,440</td><td><span class="ok">Yes</span></td><td><code>d29af3a5f838248a2d66c1819f84354fe04d47314adfdf030fbcf52e17a85f05</code></td><td><span class="ok">Identical to secret.png</span> </td><td>2026-10-13T22:43:38Z</td></tr><tr><td>/_hoto1.jpg</td><td>jpg</td><td>37,343</td><td>1,050,624</td><td><span class="ok">Yes</span></td><td><code>4dc7c0072a61565e3e66b2834e36ce3e8161f81b06ec301673ffdc39ab1da64b</code></td><td><span class="ok">Identical to photo1.jpg</span> </td><td>2026-10-13T22:43:38Z</td></tr><tr><td>/_eport.pdf</td><td>pdf</td><td>30,016</td><td>1,118,208</td><td>&ndash;</td><td><code>f8c78df96e208b639e0a16e1ed3bdc58f7845d42e18cda8254ca81f5bc81da5f</code></td><td><span class="ok">Identical to report.pdf</span> </td><td>2026-10-13T22:43:38Z</td></tr></table>
+<h2>Carved by file signature (no file-system record needed)</h2><table><tr><th>File</th><th>Type</th><th>Size (bytes)</th><th>Offset</th><th>Opens correctly</th><th>SHA-256</th><th>Verification</th><th>Modified (UTC)</th></tr><tr><td>jpg_0001050624.jpg</td><td>jpg</td><td>37,343</td><td>1,050,624</td><td><span class="ok">Yes</span></td><td><code>4dc7c0072a61565e3e66b2834e36ce3e8161f81b06ec301673ffdc39ab1da64b</code></td><td><span class="ok">Identical to photo1.jpg</span> </td><td></td></tr><tr><td>png_0001149440.png</td><td>png</td><td>32,558</td><td>1,149,440</td><td><span class="ok">Yes</span></td><td><code>d29af3a5f838248a2d66c1819f84354fe04d47314adfdf030fbcf52e17a85f05</code></td><td><span class="ok">Identical to secret.png</span> </td><td></td></tr></table>
+<h2>Verification against originals</h2><p><b>3 of 3</b> originals recovered byte-for-byte (SHA-256 identical).</p><table><tr><th>Original</th><th>Result</th><th>Recovered by</th><th>SHA-256</th></tr><tr><td>photo1.jpg</td><td><span class="ok">Recovered</span></td><td>carving, file-system record</td><td><code>4dc7c0072a61565e3e66b2834e36ce3e8161f81b06ec301673ffdc39ab1da64b</code></td></tr><tr><td>report.pdf</td><td><span class="ok">Recovered</span></td><td>file-system record</td><td><code>f8c78df96e208b639e0a16e1ed3bdc58f7845d42e18cda8254ca81f5bc81da5f</code></td></tr><tr><td>secret.png</td><td><span class="ok">Recovered</span></td><td>carving, file-system record</td><td><code>d29af3a5f838248a2d66c1819f84354fe04d47314adfdf030fbcf52e17a85f05</code></td></tr></table>
+</body></html>

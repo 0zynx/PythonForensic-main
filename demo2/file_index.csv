@@ -1,0 +1,12 @@
+partition_index,path,name,inode,type,size,created_utc,modified_utc,accessed_utc,changed_utc,status,data_runs
+0,/USBTEST     (Volume Label Entry),USBTEST     (Volume Label Entry),3,file,0,2026-10-13T22:45:24Z,2026-10-13T22:45:24Z,2026-10-13T18:30:00Z,,allocated,[]
+0,/docs,docs,4,dir,512,2026-10-13T22:45:24Z,2026-10-13T22:45:24Z,2026-10-13T18:30:00Z,,allocated,"[{""start_offset"":1050112,""length"":512}]"
+0,/docs/_ecret.png,_ecret.png,21,file,32558,2026-10-13T22:45:24Z,2026-10-13T22:45:24Z,2026-10-13T18:30:00Z,,deleted,"[{""start_offset"":1149440,""length"":32768}]"
+0,/newfile.bin,newfile.bin,5,file,20000,2026-10-13T22:45:24Z,2026-10-13T22:45:24Z,2026-10-13T18:30:00Z,,allocated,"[{""start_offset"":1182208,""length"":20480}]"
+0,/photo2.jpg,photo2.jpg,6,file,29859,2026-10-13T22:45:24Z,2026-10-13T22:45:24Z,2026-10-13T18:30:00Z,,allocated,"[{""start_offset"":1088000,""length"":30208}]"
+0,/_eport.pdf,_eport.pdf,7,file,30016,2026-10-13T22:45:24Z,2026-10-13T22:45:24Z,2026-10-13T18:30:00Z,,deleted,"[{""start_offset"":1118208,""length"":30208}]"
+0,/notes.txt,notes.txt,8,file,700,2026-10-13T22:45:24Z,2026-10-13T22:45:24Z,2026-10-13T18:30:00Z,,allocated,"[{""start_offset"":1148416,""length"":1024}]"
+0,/$MBR,$MBR,2064355,file,512,,,,,allocated,"[{""start_offset"":0,""length"":512}]"
+0,/$FAT1,$FAT1,2064356,file,516608,,,,,allocated,"[{""start_offset"":16384,""length"":516608}]"
+0,/$FAT2,$FAT2,2064357,file,516608,,,,,allocated,"[{""start_offset"":532992,""length"":516608}]"
+0,/$OrphanFiles,$OrphanFiles,2064358,dir,0,,,,,deleted,[]

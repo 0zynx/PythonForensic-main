@@ -1,0 +1,149 @@
+{
+  "case_reference": "DFT-20261015-4D63D314",
+  "summary": {
+    "image_path": "C:\\Users\\Aathika\\Downloads\\PythonForensic-main\\PythonForensic-main\\L0_Graphic.dd",
+    "image_sha256": "4d63d314f34a7349732bb0d36a434534dab551c0aebb2285cbe0216e0640a5f5",
+    "partitions_found": [
+      {
+        "partition_index": 0,
+        "start_sector": 0,
+        "length_sectors": 0,
+        "byte_offset": 0
+      }
+    ],
+    "fs_types": [],
+    "total_files": 0,
+    "allocated_files": 0,
+    "deleted_files": 0
+  },
+  "recovered_from_records": [],
+  "carved": [
+    {
+      "method": "carving",
+      "file": "png_0005120000.png",
+      "type": "png",
+      "offset": 5120000,
+      "sector": 10000,
+      "size": 12966639,
+      "valid": true,
+      "sha256": "9779c1ee5174f00f7d4130204c506a0e65d0be02d12d54ba2800f632ff95ca5b",
+      "md5": "b1bdd6f22c1a622b6acf68ba95d6ad64",
+      "matches_original": "000_0021.png"
+    },
+    {
+      "method": "carving",
+      "file": "pcx_0023206912.pcx",
+      "type": "pcx",
+      "offset": 23206912,
+      "sector": 45326,
+      "size": 806664,
+      "valid": true,
+      "sha256": "d9bd82fd7b26ebf90b80c5f0efe88d897c0ca25cf38380b37bd1e2244d75cf64",
+      "md5": "1e846d0506d21dd8a08a0cd784ce4f19",
+      "matches_original": "02010025.pcx"
+    },
+    {
+      "method": "carving",
+      "file": "jpg_0029133824.jpg",
+      "type": "jpg",
+      "offset": 29133824,
+      "sector": 56902,
+      "size": 60716,
+      "valid": true,
+      "sha256": "4f99dcc33967f1739a4448e9ec61ad85e3b20b4a1e70a63a62ae69d66b42ed5a",
+      "md5": "bb1e236cf935815e5bb714760b23f549",
+      "matches_original": "09260002.jpg"
+    },
+    {
+      "method": "carving",
+      "file": "bmp_0034314752.bmp",
+      "type": "bmp",
+      "offset": 34314752,
+      "sector": 67021,
+      "size": 5111906,
+      "valid": true,
+      "sha256": "9114474b6de14e75af17dbeb986ee6d6d15eb9649466601f80fdf9fc03a61fd1",
+      "md5": "a4f1f6095d8117aa00737f4b7f79c094",
+      "matches_original": "100_0304crop.bmp"
+    },
+    {
+      "method": "carving",
+      "file": "tif_0044547072.tif",
+      "type": "tif",
+      "offset": 44547072,
+      "sector": 87006,
+      "size": 14969328,
+      "valid": true,
+      "sha256": "2d5e6b820c9d270bfaf448ccb431b33a5544463dd576291f8fc20e0ec1bf2342",
+      "md5": "70ea373e3b686f6ef295fd9a49fe1a13",
+      "matches_original": "100_0018.tif"
+    },
+    {
+      "method": "carving",
+      "file": "gif_0064636416.gif",
+      "type": "gif",
+      "offset": 64636416,
+      "sector": 126243,
+      "size": 132948,
+      "valid": true,
+      "sha256": "5a76d672577348970c52f1b8dc107ca945070c48b753225013a595bdbb7a9373",
+      "md5": "0b910d6c21828e0b8be06322168fbd60",
+      "matches_original": "100_0183.gif"
+    }
+  ],
+  "verification": {
+    "per_original": [
+      {
+        "original": "000_0021.png",
+        "sha256": "9779c1ee5174f00f7d4130204c506a0e65d0be02d12d54ba2800f632ff95ca5b",
+        "recovered": true,
+        "methods": [
+          "carving"
+        ]
+      },
+      {
+        "original": "02010025.pcx",
+        "sha256": "d9bd82fd7b26ebf90b80c5f0efe88d897c0ca25cf38380b37bd1e2244d75cf64",
+        "recovered": true,
+        "methods": [
+          "carving"
+        ]
+      },
+      {
+        "original": "09260002.jpg",
+        "sha256": "4f99dcc33967f1739a4448e9ec61ad85e3b20b4a1e70a63a62ae69d66b42ed5a",
+        "recovered": true,
+        "methods": [
+          "carving"
+        ]
+      },
+      {
+        "original": "100_0018.tif",
+        "sha256": "2d5e6b820c9d270bfaf448ccb431b33a5544463dd576291f8fc20e0ec1bf2342",
+        "recovered": true,
+        "methods": [
+          "carving"
+        ]
+      },
+      {
+        "original": "100_0183.gif",
+        "sha256": "5a76d672577348970c52f1b8dc107ca945070c48b753225013a595bdbb7a9373",
+        "recovered": true,
+        "methods": [
+          "carving"
+        ]
+      },
+      {
+        "original": "100_0304crop.bmp",
+        "sha256": "9114474b6de14e75af17dbeb986ee6d6d15eb9649466601f80fdf9fc03a61fd1",
+        "recovered": true,
+        "methods": [
+          "carving"
+        ]
+      }
+    ],
+    "recovered": 6,
+    "total": 6
+  },
+  "image_unchanged": true
+}

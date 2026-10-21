@@ -1,0 +1,89 @@
+{
+  "case_reference": "DFT-20261021-894424D5",
+  "summary": {
+    "image_path": "C:\\Users\\Aathika\\Downloads\\USB_Forensics_Test\\usb_after_delete.001",
+    "image_sha256": "894424d5b0f5619be8f0543da1cf070fbcf794e6072689116000c61b29c8f12e",
+    "partitions_found": [
+      {
+        "partition_index": 0,
+        "start_sector": 0,
+        "length_sectors": 0,
+        "byte_offset": 0
+      }
+    ],
+    "fs_types": [],
+    "total_files": 0,
+    "allocated_files": 0,
+    "deleted_files": 0
+  },
+  "recovered_from_records": [],
+  "carved": [
+    {
+      "method": "carving",
+      "file": "jpg_0007077888.jpg",
+      "type": "jpg",
+      "offset": 7077888,
+      "sector": 13824,
+      "size": 116202,
+      "valid": true,
+      "sha256": "2f28a28ab5a8ad87ebe1734ab47913e4f8f3697dbc5b070123f51555cba33f7d",
+      "md5": "b38753f14579f3085fb607d415a176ee",
+      "matches_original": null
+    },
+    {
+      "method": "carving",
+      "file": "png_1138491392.png",
+      "type": "png",
+      "offset": 1138491392,
+      "sector": 2223616,
+      "size": 256236,
+      "valid": true,
+      "sha256": "31d98ddb97274c6bc9d32889b6aac7e062cedd75d2eb4b1f0ce99eaaf1469773",
+      "md5": "7a3e1c09bb0fe4843bc915e403bbedaf",
+      "matches_original": null
+    }
+  ],
+  "verification": {
+    "per_original": [
+      {
+        "original": "000_0021.png",
+        "sha256": "9779c1ee5174f00f7d4130204c506a0e65d0be02d12d54ba2800f632ff95ca5b",
+        "recovered": false,
+        "methods": []
+      },
+      {
+        "original": "02010025.pcx",
+        "sha256": "d9bd82fd7b26ebf90b80c5f0efe88d897c0ca25cf38380b37bd1e2244d75cf64",
+        "recovered": false,
+        "methods": []
+      },
+      {
+        "original": "09260002.jpg",
+        "sha256": "4f99dcc33967f1739a4448e9ec61ad85e3b20b4a1e70a63a62ae69d66b42ed5a",
+        "recovered": false,
+        "methods": []
+      },
+      {
+        "original": "100_0018.tif",
+        "sha256": "2d5e6b820c9d270bfaf448ccb431b33a5544463dd576291f8fc20e0ec1bf2342",
+        "recovered": false,
+        "methods": []
+      },
+      {
+        "original": "100_0183.gif",
+        "sha256": "5a76d672577348970c52f1b8dc107ca945070c48b753225013a595bdbb7a9373",
+        "recovered": false,
+        "methods": []
+      },
+      {
+        "original": "100_0304crop.bmp",
+        "sha256": "9114474b6de14e75af17dbeb986ee6d6d15eb9649466601f80fdf9fc03a61fd1",
+        "recovered": false,
+        "methods": []
+      }
+    ],
+    "recovered": 0,
+    "total": 6
+  },
+  "image_unchanged": true
+}

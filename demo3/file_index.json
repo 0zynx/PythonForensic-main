@@ -1,0 +1,182 @@
+[
+  {
+    "partition_index": 0,
+    "path": "/USBTEST     (Volume Label Entry)",
+    "name": "USBTEST     (Volume Label Entry)",
+    "inode": 3,
+    "type": "file",
+    "size": 0,
+    "created_utc": "2026-10-14T13:59:28Z",
+    "modified_utc": "2026-10-14T13:59:28Z",
+    "accessed_utc": "2026-10-13T18:30:00Z",
+    "changed_utc": null,
+    "status": "allocated",
+    "data_runs": []
+  },
+  {
+    "partition_index": 0,
+    "path": "/_hoto1.jpg",
+    "name": "_hoto1.jpg",
+    "inode": 4,
+    "type": "file",
+    "size": 37343,
+    "created_utc": "2026-10-14T13:59:28Z",
+    "modified_utc": "2026-10-14T13:59:28Z",
+    "accessed_utc": "2026-10-13T18:30:00Z",
+    "changed_utc": null,
+    "status": "deleted",
+    "data_runs": [
+      {
+        "start_offset": 1050112,
+        "length": 37376
+      }
+    ]
+  },
+  {
+    "partition_index": 0,
+    "path": "/_eport.pdf",
+    "name": "_eport.pdf",
+    "inode": 5,
+    "type": "file",
+    "size": 30016,
+    "created_utc": "2026-10-14T13:59:28Z",
+    "modified_utc": "2026-10-14T13:59:28Z",
+    "accessed_utc": "2026-10-13T18:30:00Z",
+    "changed_utc": null,
+    "status": "deleted",
+    "data_runs": [
+      {
+        "start_offset": 1087488,
+        "length": 30208
+      }
+    ]
+  },
+  {
+    "partition_index": 0,
+    "path": "/_ecret.png",
+    "name": "_ecret.png",
+    "inode": 6,
+    "type": "file",
+    "size": 32558,
+    "created_utc": "2026-10-14T13:59:28Z",
+    "modified_utc": "2026-10-14T13:59:28Z",
+    "accessed_utc": "2026-10-13T18:30:00Z",
+    "changed_utc": null,
+    "status": "deleted",
+    "data_runs": [
+      {
+        "start_offset": 1117696,
+        "length": 32768
+      }
+    ]
+  },
+  {
+    "partition_index": 0,
+    "path": "/_acation.jpg",
+    "name": "_acation.jpg",
+    "inode": 7,
+    "type": "file",
+    "size": 32558,
+    "created_utc": "2026-10-14T13:59:28Z",
+    "modified_utc": "2026-10-14T13:59:28Z",
+    "accessed_utc": "2026-10-13T18:30:00Z",
+    "changed_utc": null,
+    "status": "deleted",
+    "data_runs": [
+      {
+        "start_offset": 1150464,
+        "length": 32768
+      }
+    ]
+  },
+  {
+    "partition_index": 0,
+    "path": "/notes.txt",
+    "name": "notes.txt",
+    "inode": 8,
+    "type": "file",
+    "size": 700,
+    "created_utc": "2026-10-14T13:59:28Z",
+    "modified_utc": "2026-10-14T13:59:28Z",
+    "accessed_utc": "2026-10-13T18:30:00Z",
+    "changed_utc": null,
+    "status": "allocated",
+    "data_runs": [
+      {
+        "start_offset": 1183232,
+        "length": 1024
+      }
+    ]
+  },
+  {
+    "partition_index": 0,
+    "path": "/$MBR",
+    "name": "$MBR",
+    "inode": 2064355,
+    "type": "file",
+    "size": 512,
+    "created_utc": null,
+    "modified_utc": null,
+    "accessed_utc": null,
+    "changed_utc": null,
+    "status": "allocated",
+    "data_runs": [
+      {
+        "start_offset": 0,
+        "length": 512
+      }
+    ]
+  },
+  {
+    "partition_index": 0,
+    "path": "/$FAT1",
+    "name": "$FAT1",
+    "inode": 2064356,
+    "type": "file",
+    "size": 516608,
+    "created_utc": null,
+    "modified_utc": null,
+    "accessed_utc": null,
+    "changed_utc": null,
+    "status": "allocated",
+    "data_runs": [
+      {
+        "start_offset": 16384,
+        "length": 516608
+      }
+    ]
+  },
+  {
+    "partition_index": 0,
+    "path": "/$FAT2",
+    "name": "$FAT2",
+    "inode": 2064357,
+    "type": "file",
+    "size": 516608,
+    "created_utc": null,
+    "modified_utc": null,
+    "accessed_utc": null,
+    "changed_utc": null,
+    "status": "allocated",
+    "data_runs": [
+      {
+        "start_offset": 532992,
+        "length": 516608
+      }
+    ]
+  },
+  {
+    "partition_index": 0,
+    "path": "/$OrphanFiles",
+    "name": "$OrphanFiles",
+    "inode": 2064358,
+    "type": "dir",
+    "size": 0,
+    "created_utc": null,
+    "modified_utc": null,
+    "accessed_utc": null,
+    "changed_utc": null,
+    "status": "deleted",
+    "data_runs": []
+  }
+]

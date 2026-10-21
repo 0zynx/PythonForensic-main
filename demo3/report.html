@@ -1,0 +1,25 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Forensic Report</title><style>
+body{font-family:Segoe UI,Calibri,Arial,sans-serif;margin:2rem auto;max-width:1100px;color:#24262a;background:#f7f5f1;padding:0 1rem}
+h1{font-family:Cambria,Georgia,serif;margin-bottom:.2rem}h2{margin-top:2rem;border-bottom:2px solid #e8a33d;padding-bottom:.3rem}
+.meta{color:#6b7076;margin-bottom:1.5rem}.cards{display:flex;gap:1rem;flex-wrap:wrap}
+.card{background:#fff;border:1px solid #e2ded5;border-radius:8px;padding:1rem 1.2rem;min-width:150px}
+.card b{display:block;font-size:1.8rem}table{border-collapse:collapse;width:100%;background:#fff;font-size:.9rem}
+th,td{border:1px solid #e2ded5;padding:.45rem .6rem;text-align:left;vertical-align:top}th{background:#1a1d21;color:#fff}
+code{font-size:.78rem;word-break:break-all}.ok{color:#1b7a3d;font-weight:600}.bad{color:#b3261e;font-weight:600}.warn{color:#9a6700;font-weight:600}
+</style></head><body>
+<h1>Digital Forensics Toolkit: Case Report</h1><div class="meta">Generated 2026-10-14 19:47 UTC</div>
+<h2>Evidence</h2><table>
+<tr><th>Image</th><td>C:\Users\Aathika\Downloads\PythonForensic-main\test_images_wipe\usb_test3.dd</td></tr>
+<tr><th>SHA-256 at acquisition</th><td><code>ee4a2496eac55d4f18dd5248038969831b2ecceae251a46dfec7e6acaf076067</code></td></tr>
+<tr><th>Image unchanged after analysis</th><td><span class="ok">Yes, hash re-checked and identical</span></td></tr>
+<tr><th>File systems found</th><td>FAT32</td></tr></table>
+<h2>Summary</h2><div class="cards">
+<div class="card"><b>5</b>existing files</div>
+<div class="card"><b>4</b>deleted files listed</div>
+<div class="card"><b>4</b>recovered from file-system records</div>
+<div class="card"><b>2</b>wiped or overwritten</div>
+<div class="card"><b>2</b>carved from unallocated space</div></div>
+<h2>Recovered from file-system records (original names and timestamps)</h2><table><tr><th>File</th><th>Type</th><th>Size (bytes)</th><th>Offset</th><th>Content check</th><th>SHA-256</th><th>Verification</th><th>Modified (UTC)</th></tr><tr><td>/_hoto1.jpg</td><td>jpg</td><td>37,343</td><td>1,050,112</td><td><span class="bad">Wiped: zero-filled</span></td><td><code>6f66bc4c2db32767382efc4f85b1c7a211c07eebb741f6229ebc17851ce8f1b9</code></td><td><span class="bad">No matching original</span> </td><td>2026-10-14T13:59:28Z</td></tr><tr><td>/_eport.pdf</td><td>pdf</td><td>30,016</td><td>1,087,488</td><td><span class="bad">Overwritten: random data</span></td><td><code>693222b5e5b1a9028e8fc63d1bc8729b5730ed302fccd3f3c72236ed35a19d7f</code></td><td><span class="bad">No matching original</span> </td><td>2026-10-14T13:59:28Z</td></tr><tr><td>/_ecret.png</td><td>png</td><td>32,558</td><td>1,117,696</td><td><span class="ok">Intact</span></td><td><code>d29af3a5f838248a2d66c1819f84354fe04d47314adfdf030fbcf52e17a85f05</code></td><td><span class="ok">Identical to secret.png</span> </td><td>2026-10-14T13:59:28Z</td></tr><tr><td>/_acation.jpg</td><td>jpg</td><td>32,558</td><td>1,150,464</td><td><span class="ok">Intact</span> <span class="warn">Type mismatch: content is png</span></td><td><code>d29af3a5f838248a2d66c1819f84354fe04d47314adfdf030fbcf52e17a85f05</code></td><td><span class="ok">Identical to secret.png</span> </td><td>2026-10-14T13:59:28Z</td></tr></table>
+<h2>Carved by file signature (no file-system record needed)</h2><table><tr><th>File</th><th>Type</th><th>Size (bytes)</th><th>Offset</th><th>Content check</th><th>SHA-256</th><th>Verification</th><th>Modified (UTC)</th></tr><tr><td>png_0001117696.png</td><td>png</td><td>32,558</td><td>1,117,696</td><td><span class="ok">Intact (decoded)</span></td><td><code>d29af3a5f838248a2d66c1819f84354fe04d47314adfdf030fbcf52e17a85f05</code></td><td><span class="ok">Identical to secret.png</span> </td><td></td></tr><tr><td>png_0001150464.png</td><td>png</td><td>32,558</td><td>1,150,464</td><td><span class="ok">Intact (decoded)</span></td><td><code>d29af3a5f838248a2d66c1819f84354fe04d47314adfdf030fbcf52e17a85f05</code></td><td><span class="ok">Identical to secret.png</span> </td><td></td></tr></table>
+<h2>Verification against originals</h2><p><b>1 of 3</b> originals recovered byte-for-byte (SHA-256 identical).</p><table><tr><th>Original</th><th>Result</th><th>Recovered by</th><th>SHA-256</th></tr><tr><td>photo1.jpg</td><td><span class="bad">Not recovered</span></td><td>–</td><td><code>4dc7c0072a61565e3e66b2834e36ce3e8161f81b06ec301673ffdc39ab1da64b</code></td></tr><tr><td>report.pdf</td><td><span class="bad">Not recovered</span></td><td>–</td><td><code>f8c78df96e208b639e0a16e1ed3bdc58f7845d42e18cda8254ca81f5bc81da5f</code></td></tr><tr><td>secret.png</td><td><span class="ok">Recovered</span></td><td>carving, file-system record</td><td><code>d29af3a5f838248a2d66c1819f84354fe04d47314adfdf030fbcf52e17a85f05</code></td></tr></table>
+</body></html>

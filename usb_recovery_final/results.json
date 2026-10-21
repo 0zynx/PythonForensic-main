@@ -1,0 +1,111 @@
+{
+  "case_reference": "DFT-20261021-894424D5",
+  "summary": {
+    "image_path": "C:\\Users\\Aathika\\Downloads\\USB_Forensics_Test\\usb_after_delete.001",
+    "image_sha256": "894424d5b0f5619be8f0543da1cf070fbcf794e6072689116000c61b29c8f12e",
+    "partitions_found": [
+      {
+        "partition_index": 0,
+        "start_sector": 0,
+        "length_sectors": 0,
+        "byte_offset": 0
+      }
+    ],
+    "fs_types": [],
+    "total_files": 0,
+    "allocated_files": 0,
+    "deleted_files": 0
+  },
+  "recovered_from_records": [],
+  "carved": [
+    {
+      "method": "carving",
+      "file": "jpg_0007077888.jpg",
+      "type": "jpg",
+      "offset": 7077888,
+      "sector": 13824,
+      "size": 116202,
+      "valid": true,
+      "sha256": "2f28a28ab5a8ad87ebe1734ab47913e4f8f3697dbc5b070123f51555cba33f7d",
+      "md5": "b38753f14579f3085fb607d415a176ee",
+      "matches_original": "test_photo1.jpg.jpg"
+    },
+    {
+      "method": "carving",
+      "file": "png_1138491392.png",
+      "type": "png",
+      "offset": 1138491392,
+      "sector": 2223616,
+      "size": 256236,
+      "valid": true,
+      "sha256": "31d98ddb97274c6bc9d32889b6aac7e062cedd75d2eb4b1f0ce99eaaf1469773",
+      "md5": "7a3e1c09bb0fe4843bc915e403bbedaf",
+      "matches_original": "test_photo2.png.png"
+    }
+  ],
+  "verification": {
+    "per_original": [
+      {
+        "original": "test_note.txt",
+        "sha256": "8a2a5193af31696779b79d3ee1d41d7e0a9d1ead4eb6741a0e55c721872d5ed1",
+        "recovered": false,
+        "methods": []
+      },
+      {
+        "original": "test_photo1.jpg.jpg",
+        "sha256": "2f28a28ab5a8ad87ebe1734ab47913e4f8f3697dbc5b070123f51555cba33f7d",
+        "recovered": true,
+        "methods": [
+          "carving"
+        ]
+      },
+      {
+        "original": "test_photo2.png.png",
+        "sha256": "31d98ddb97274c6bc9d32889b6aac7e062cedd75d2eb4b1f0ce99eaaf1469773",
+        "recovered": true,
+        "methods": [
+          "carving"
+        ]
+      },
+      {
+        "original": "usb_after_delete.001",
+        "sha256": "894424d5b0f5619be8f0543da1cf070fbcf794e6072689116000c61b29c8f12e",
+        "recovered": false,
+        "methods": []
+      },
+      {
+        "original": "usb_after_delete.001.txt",
+        "sha256": "91e81222364766db635c3a7d1bad0e9bfb1642cdb7199492bf08c05172d00efa",
+        "recovered": false,
+        "methods": []
+      },
+      {
+        "original": "usb_before_delete.004",
+        "sha256": "3e6b92b9764b3786091e5bb67e8ffb8c3271be4c977101da9fa14afa12fea171",
+        "recovered": false,
+        "methods": []
+      },
+      {
+        "original": "usb_before_delete.005",
+        "sha256": "3ad21f32b4daf42b3772d2071e9309dd8fb0852fb36d823d904a93ea53aea844",
+        "recovered": false,
+        "methods": []
+      },
+      {
+        "original": "usb_before_delete.001",
+        "sha256": "9563f0700799216cea56d5dc229827dfef236b9b6c4b74e2d8ca1a7a5afec98d",
+        "recovered": false,
+        "methods": []
+      },
+      {
+        "original": "usb_before_delete.001.txt",
+        "sha256": "38a1748f4ab54e73eb159bd380e8aabb78065490fcc8241cc6432b708e2d0455",
+        "recovered": false,
+        "methods": []
+      }
+    ],
+    "recovered": 2,
+    "total": 9
+  },
+  "image_unchanged": true
+}
