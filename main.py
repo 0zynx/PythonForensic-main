@@ -11,7 +11,7 @@ from carver import carve
 from fs_parser import ParsedIndex, parse_image
 from fs_recover import allocated_ranges, recover_deleted
 from image_file_checker import inspect_png, write_png_report
-from image_loader import LoadedImage, _sha256_file, load_image
+from image_loader import LoadedImage, _sha256_file, _sha256_segments, _segment_paths, load_image
 from index_writer import write_index
 from report import write_report
 from verification import hash_originals, verify_results
@@ -106,10 +106,19 @@ def main(argv: Sequence[str] | None = None) -> int:
                         verification["recovered"], verification["total"])
 
         if arguments.report:
-            unchanged = _sha256_file(loaded_image.path) == loaded_image.sha256
+            segments = _segment_paths(loaded_image.path)
+            if segments:
+                current_hash = _sha256_segments(segments)
+            else:
+                current_hash = _sha256_file(loaded_image.path)
+
+            unchanged = current_hash == loaded_image.sha256
             LOGGER.info("Image hash unchanged after analysis: %s", unchanged)
-            path = write_report(arguments.out_dir, summary, fs_results, carved, verification, unchanged)
+            path = write_report(
+                arguments.out_dir, summary, fs_results, carved, verification, unchanged
+            )
             LOGGER.info("Report written to %s", path)
+
 
     except Exception as exc:
         LOGGER.error("Image analysis failed: %s", exc)
